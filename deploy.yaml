@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: my-deployment
   labels:
-
     app: my-deployment
 spec:
   replicas: 2
@@ -17,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-deployment
-        image: aadi0410/project-2
+        image: rishikanth00/ris-img 
         ports:
       - containerPort: 80
